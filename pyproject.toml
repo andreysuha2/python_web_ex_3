@@ -5,8 +5,12 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+start-app = "ex_3.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.11"
+pick = "^2.2.0"
 
 
 [build-system]
