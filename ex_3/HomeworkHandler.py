@@ -6,5 +6,5 @@ class HomeworkHandler(metaclass=ABCMeta):
         self.description = description
         
     @abstractclassmethod
-    def run(self, *args, **kwargs):
+    def run(self, *args, **kwargs) -> None:
         pass

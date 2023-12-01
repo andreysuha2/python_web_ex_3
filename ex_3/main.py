@@ -15,7 +15,7 @@ class App:
     
     def run(self) -> None:
         option, index = self.pick(self.pick_options, self.title)
-        print(f"Run handler: {option}")
+        print(f"Runing handler: {option}")
         handler = self.handlers[index]
         handler.run()
         
