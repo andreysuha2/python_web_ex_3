@@ -1,7 +1,7 @@
 from pick import pick
-from .HomeworkHandler import HomeworkHandler
-from .part_1.main import Cleaner
-from .part_2.main import Factorize
+from ex_3.HomeworkHandler import HomeworkHandler
+from ex_3.part_1.main import Cleaner
+from ex_3.part_2.main import Factorize
 
 class App:
     def __init__(self, pick: pick, title: str, handlers: list[HomeworkHandler]) -> None:
